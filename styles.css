@@ -1,0 +1,41 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.container img{
+    border: 2px solid black;
+}
+.img1:hover{
+    transform: rotate(90deg);
+}
+.img2:hover{
+    transform: scale(2,2);
+}
+.img3:hover{
+    transform: skew(45deg);
+}
+.img4:hover{
+    transform: translateX(30px);
+}
+.img5:hover{
+    transform: translateX(-30px);
+}
+.img6:hover{
+    transform: translateY(50px);
+}
+.img7:hover{
+    transform: translateY(-50px);
+}
+.img8:hover{
+    transform: rotate(180deg);
+}
+.img9:hover{
+    transform: rotate(350deg);
+}
+.img10:hover{
+    transform: scale(1,2);
+}
+.img11:hover{
+    transform: skew(50deg);
+}
